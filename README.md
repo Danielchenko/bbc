@@ -1,8 +1,13 @@
 # bbc
 Braking Bad Cards
 
-Esse projeto foi feito como modo de ultilizar alguns dos meus conhecimentos.
-# Ultilizando o projeto 
+Esse projeto é uma listagem de cartas baseadas nos personagens do Breaking Bad.
+
+Para fazer essa listagem eu usei a API (https://breakingbadapi.com/) usando fetch.
+
+No projeto tem a funcionalidade de buscar, adicionar mais cartas e embaralhar as cartas.
+
+# Execução do projeto
 
  Instale as dependências
 
