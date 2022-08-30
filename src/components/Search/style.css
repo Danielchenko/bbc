@@ -2,8 +2,10 @@
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    height: calc(100vh - 152px);
+    
   }
 .cardsContainer{
     display: flex;
@@ -85,4 +87,13 @@
     font-size: 18px;
     margin: 8px;
     cursor: pointer;
+  }
+
+  @media (max-width: 768px) { 
+    .App{
+      height: calc(100% + 100px);
+    }
+    .cardContainer{
+      justify-content: center;
+    }
   }
