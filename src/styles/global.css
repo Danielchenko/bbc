@@ -1,0 +1,23 @@
+@font-face {
+  font-family: Heart Breaking Bad ;
+  src: url("HeartBreakingBad.otf") format("opentype");
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif;
+  background: url('bb.png') left bottom no-repeat;
+  background-size: 16.5%;
+}
+
+#root{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}

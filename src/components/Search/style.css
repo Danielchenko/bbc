@@ -1,0 +1,88 @@
+.App {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+.cardsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 1020px;
+  }
+  
+  .cardContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #032202;
+    border-radius: 8px;
+    width: 220px;
+    height: 350px;
+    margin: 6px 15px;
+
+  }
+  
+  .cardName {
+    margin: 0;
+    width: 200px;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 32px;
+    color: #032202;
+  }
+  
+  .cardImg {
+    width: 200px;
+    min-height: 250px;
+    object-fit: cover;
+  }
+  
+  .cardDescription {
+    margin: 0;
+    height: 50px;
+    width: 196px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #032202;
+    text-align: start;
+  }
+  
+  .cardPoint{
+    margin: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: #032202;
+    font-size: 22px;
+    padding: 4px;
+  }
+
+  .btnContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .btnContainer button{
+    width: 120px;
+    height: 56px;
+    background: black;
+    color: #ccc;
+    font-size: 18px;
+    margin: 8px;
+    cursor: pointer;
+  }
