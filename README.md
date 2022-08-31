@@ -1,5 +1,5 @@
-# bbc
-Breaking Bad Cards
+
+# Breaking Bad Cards
 
 Esse projeto é uma listagem de cartas baseadas nos personagens do Breaking Bad.
 
